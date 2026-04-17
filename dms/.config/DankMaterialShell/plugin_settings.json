@@ -1,0 +1,24 @@
+{
+  "dankCleaner": {
+    "enabled": true,
+    "cleanupTmp": true,
+    "cacheExcludeNames": "spotify, spicetify"
+  },
+  "discordVoice": {
+    "enabled": true,
+    "maxBarAvatars": 6
+  },
+  "musicLyrics": {
+    "enabled": true
+  },
+  "dockerManager": {
+    "enabled": true,
+    "groupByCompose": false
+  },
+  "dankKDEConnect": {
+    "enabled": true
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  }
+}

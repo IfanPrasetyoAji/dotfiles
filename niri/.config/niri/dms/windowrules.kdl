@@ -1,0 +1,33 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1775138331318118449 @name=vesktop
+window-rule {
+    match app-id="^vesktop$"
+    open-maximized true
+}
+
+// @id=wr_1775139713377447468 @name=steam
+window-rule {
+    match app-id="^steam$"
+    open-maximized true
+}
+
+// @id=wr_1775139734914518061 @name=steam
+window-rule {
+    match app-id="^steam$" title="^Friends List$"
+    open-floating true
+    max-width 600
+    max-height 800
+}
+
+// @id=wr_1776258094670233657 @name=kitty
+window-rule {
+    match app-id="^kitty$"
+}
+
+// @id=wr_1776343967701825568 @name=Spotify
+window-rule {
+    match app-id="^Spotify$"
+    open-fullscreen true
+}
