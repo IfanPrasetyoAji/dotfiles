@@ -1,0 +1,5 @@
+[config]
+
+[templates.niri-ring-override]
+input_path = '/home/ifan/.config/matugen/templates/niri-ring-override.kdl'
+output_path = '/home/ifan/.config/niri/dms/ring-override.kdl'

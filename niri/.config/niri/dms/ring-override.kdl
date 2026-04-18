@@ -1,0 +1,5 @@
+layout {
+  focus-ring {
+    active-gradient from="#91cef4" to="#1e6586" angle=135
+  }
+}

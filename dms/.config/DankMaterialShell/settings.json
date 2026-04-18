@@ -39,7 +39,7 @@
   "modalAnimationSpeed": 1,
   "modalCustomAnimationDuration": 150,
   "enableRippleEffects": true,
-  "m3ElevationEnabled": true,
+  "m3ElevationEnabled": false,
   "m3ElevationIntensity": 12,
   "m3ElevationOpacity": 30,
   "m3ElevationColorMode": "default",
@@ -48,10 +48,10 @@
   "modalElevationEnabled": true,
   "popoutElevationEnabled": true,
   "barElevationEnabled": true,
-  "blurEnabled": false,
+  "blurEnabled": true,
   "blurBorderColor": "outline",
   "blurBorderCustomColor": "#ffffff",
-  "blurBorderOpacity": 1,
+  "blurBorderOpacity": 0.7,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
@@ -243,7 +243,7 @@
   "networkPreference": "ethernet",
   "iconTheme": "System Default",
   "cursorSettings": {
-    "theme": "System Default",
+    "theme": "Adwaita",
     "size": 24,
     "niri": {
       "hideWhenTyping": false,
@@ -277,7 +277,7 @@
   "notepadLastCustomTransparency": 0.7,
   "soundsEnabled": true,
   "useSystemSoundTheme": true,
-  "soundLogin": false,
+  "soundLogin": true,
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
@@ -511,12 +511,9 @@
           "enabled": true
         },
         {
-          "id": "clipboard",
-          "enabled": true
-        },
-        {
-          "id": "notificationButton",
-          "enabled": true
+          "id": "cpuUsage",
+          "enabled": true,
+          "minimumWidth": false
         },
         {
           "id": "battery",
@@ -524,6 +521,10 @@
         },
         {
           "id": "controlCenterButton",
+          "enabled": true
+        },
+        {
+          "id": "notificationButton",
           "enabled": true
         }
       ],
