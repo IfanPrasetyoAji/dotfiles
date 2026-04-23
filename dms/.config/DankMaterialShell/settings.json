@@ -48,10 +48,10 @@
   "modalElevationEnabled": true,
   "popoutElevationEnabled": true,
   "barElevationEnabled": true,
-  "blurEnabled": true,
+  "blurEnabled": false,
   "blurBorderColor": "outline",
   "blurBorderCustomColor": "#ffffff",
-  "blurBorderOpacity": 0.7,
+  "blurBorderOpacity": 0,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": false,
@@ -240,7 +240,7 @@
   "dankLauncherV2IncludeFoldersInAll": false,
   "useAutoLocation": false,
   "weatherEnabled": true,
-  "networkPreference": "ethernet",
+  "networkPreference": "wifi",
   "iconTheme": "System Default",
   "cursorSettings": {
     "theme": "Adwaita",
@@ -507,6 +507,10 @@
       ],
       "rightWidgets": [
         {
+          "id": "dankKDEConnect",
+          "enabled": true
+        },
+        {
           "id": "systemTray",
           "enabled": true
         },
@@ -545,7 +549,7 @@
       "fontScale": 1,
       "autoHide": false,
       "autoHideDelay": 250,
-      "openOnOverview": false,
+      "openOnOverview": true,
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
@@ -555,7 +559,8 @@
       "scrollYBehavior": "column",
       "scrollXBehavior": "column",
       "scrollEnabled": false,
-      "maximizeWidgetIcons": false
+      "maximizeWidgetIcons": false,
+      "clickThrough": false
     }
   ],
   "desktopClockEnabled": false,

@@ -29,5 +29,5 @@ window-rule {
 // @id=wr_1776343967701825568 @name=Spotify
 window-rule {
     match app-id="^Spotify$"
-    open-fullscreen true
+    open-maximized true
 }

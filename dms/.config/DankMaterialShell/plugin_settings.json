@@ -16,9 +16,24 @@
     "groupByCompose": false
   },
   "dankKDEConnect": {
-    "enabled": true
+    "enabled": true,
+    "selectedDeviceId": "11c3a5b4eec24697aa4ad54e5abdc1b9"
   },
   "dankPomodoroTimer": {
     "enabled": true
+  },
+  "dankGifSearch": {
+    "enabled": true
+  },
+  "dankStickerSearch": {
+    "enabled": true
+  },
+  "dankLauncherKeys": {
+    "enabled": true
+  },
+  "webSearch": {
+    "enabled": true,
+    "searchEngines": [],
+    "disabledEngines": []
   }
 }
