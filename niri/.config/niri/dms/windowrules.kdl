@@ -31,3 +31,9 @@ window-rule {
     match app-id="^Spotify$"
     open-maximized true
 }
+
+// @id=wr_1780757305295068570 @name=kitty
+window-rule {
+    match app-id="^kitty$"
+    opacity 0.90
+}

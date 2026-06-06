@@ -284,4 +284,8 @@ include "dms/binds.kdl"
 include "dms/outputs.kdl"
 include "dms/cursor.kdl"
 include "dms/windowrules.kdl"
-include "dms/ring-override.kdl"
+
+// Include custom configs
+include "custom/blur.kdl"
+include "custom/ring-override.kdl"
+include "custom/autostart.kdl"
