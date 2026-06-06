@@ -6,3 +6,11 @@ window-rule {
     xray false
   }
 }
+
+layer-rule {
+    match namespace="^dms"
+
+    background-effect {
+        xray false
+    }
+}
