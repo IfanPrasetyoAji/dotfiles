@@ -22,18 +22,19 @@
   "dankPomodoroTimer": {
     "enabled": true
   },
-  "dankGifSearch": {
-    "enabled": true
-  },
-  "dankStickerSearch": {
-    "enabled": true
-  },
-  "dankLauncherKeys": {
-    "enabled": true
-  },
   "webSearch": {
     "enabled": true,
     "searchEngines": [],
     "disabledEngines": []
+  },
+  "dankGifSearch": {
+    "enabled": true
+  },
+  "dankLauncherKeys": {
+    "enabled": true,
+    "noTrigger": false
+  },
+  "dankStickerSearch": {
+    "enabled": true
   }
 }
