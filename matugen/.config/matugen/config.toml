@@ -2,7 +2,7 @@
 
 [templates.niri-ring-override]
 input_path = '~/.config/matugen/templates/niri-ring-override.kdl'
-output_path = '~/.config/niri/dms/ring-override.kdl'
+output_path = '~/.config/niri/custom/ring-override.kdl'
 
 [templates.btop]
 input_path = '~/.config/matugen/templates/btop.theme'
