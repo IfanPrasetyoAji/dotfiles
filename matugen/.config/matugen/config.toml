@@ -8,3 +8,8 @@ output_path = '~/.config/niri/custom/ring-override.kdl'
 input_path = '~/.config/matugen/templates/btop.theme'
 output_path = '~/.config/btop/themes/matugen.theme'
 post_hook = 'pkill -USR2 btop || true'
+
+[templates.spicetify-text]
+input_path = '~/.config/matugen/templates/spicetify-color.ini'
+output_path = '~/.config/spicetify/Themes/text/color.ini'
+post_hook = 'spicetify apply --no-restart'
