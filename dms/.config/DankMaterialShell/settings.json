@@ -3,7 +3,7 @@
   "currentThemeCategory": "dynamic",
   "customThemeFile": "",
   "registryThemeVariants": {},
-  "matugenScheme": "scheme-tonal-spot",
+  "matugenScheme": "scheme-fidelity",
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
   "popupTransparency": 0.8,
@@ -247,8 +247,8 @@
   "launcherLogoBrightness": 0.5,
   "launcherLogoContrast": 1,
   "launcherLogoSizeOffset": 0,
-  "fontFamily": "JetBrains Mono",
-  "monoFontFamily": "JetBrains Mono",
+  "fontFamily": "Ioskeley Mono",
+  "monoFontFamily": "Ioskeley Mono",
   "fontWeight": 400,
   "fontScale": 1,
   "notepadUseMonospace": true,
@@ -451,7 +451,8 @@
         },
         {
           "id": "focusedWindow",
-          "enabled": true
+          "enabled": true,
+          "focusedWindowCompactMode": false
         }
       ],
       "centerWidgets": [
@@ -499,7 +500,7 @@
       "innerPadding": 4,
       "bottomGap": -8,
       "transparency": 0,
-      "widgetTransparency": 1,
+      "widgetTransparency": 0.4,
       "squareCorners": false,
       "noBackground": false,
       "gothCornersEnabled": false,
