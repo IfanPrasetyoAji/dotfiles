@@ -266,6 +266,10 @@ debug {
     honor-xdg-activation-with-invalid-serial
 }
 
+clipboard {
+  disable-primary
+}
+
 // Override to disable super+tab
 recent-windows {
     binds {
