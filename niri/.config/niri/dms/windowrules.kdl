@@ -36,10 +36,43 @@ window-rule {
 window-rule {
     match app-id="^kitty$"
     opacity 0.90
+    background-effect {
+        blur true
+    }
 }
 
 // @id=wr_1781081846254330185 @name=discord
 window-rule {
     match app-id="^discord$"
+    open-maximized true
+}
+
+// @id=wr_1783603413126875361 @name=com.danklinux.dms
+window-rule {
+    match app-id="^com.danklinux.dms$"
+    opacity 0.90
+    background-effect {
+        blur true
+        xray true
+    }
+}
+
+// @id=wr_1783603601300196784 @name=^steam$
+window-rule {
+    match app-id="^steam$" title="^notificationtoasts_\\d+_desktop$"
+    default-floating-position x=0 y=0 relative-to="bottom-right"
+}
+
+// @id=wr_1783603617406198428 @name=firefox$
+window-rule {
+    match app-id="firefox$" title="^Picture-in-Picture$"
+    match app-id="zen" title="^Picture-in-Picture$"
+    match app-id="zoom"
+    open-floating true
+}
+
+// @id=wr_1783603677979974903 @name=zen
+window-rule {
+    match app-id="zen"
     open-maximized true
 }

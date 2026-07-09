@@ -10,7 +10,8 @@
     "separator": ""
   },
   "logo": {
-    "type": "small", 
+    "type": "builtin", 
+    "source": "cachyos_old_small",
     "padding": {
         "top": 1
     }
